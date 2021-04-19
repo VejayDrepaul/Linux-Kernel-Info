@@ -15,11 +15,12 @@ int main()
 	else {
         // Print Node Info
         printf("--------------- Kernel Information ---------------\n");
-        printf("Operating System: %s\n", kern.nodename);
-        printf("Kernel Type: %s\n", kern.sysname);
+        printf("Node Name: %s\n", kern.nodename);
+        printf("System Name: %s\n", kern.sysname);
         printf("Version: %s\n", kern.version);
         printf("Kernel Release: %s\n", kern.release);
         printf("Architecture: %s\n", kern.machine);
+	printf("Domain name: %s\n", kern.__domainname);
         exit(EXIT_SUCCESS);
     }
 	
