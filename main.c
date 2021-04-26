@@ -21,7 +21,8 @@ int main()
         printf("Kernel Release: %s\n", kern.release);
         printf("Architecture: %s\n", kern.machine);
 	printf("Domain name: %s\n", kern.__domainname);
-        exit(EXIT_SUCCESS);
+	printf("--------------------------------------------------\n");
+	exit(EXIT_SUCCESS);
     }
 	
 	return 0;
