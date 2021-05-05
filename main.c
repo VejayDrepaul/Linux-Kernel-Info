@@ -20,7 +20,7 @@ int main()
         printf("Version: %s\n", kern.version);
         printf("Kernel Release: %s\n", kern.release);
         printf("Architecture: %s\n", kern.machine);
-	printf("Domain name: %s\n", kern.__domainname);
+	#printf("Domain name: %s\n", kern.__domainname);
 	printf("--------------------------------------------------\n");
 	exit(EXIT_SUCCESS);
     }
